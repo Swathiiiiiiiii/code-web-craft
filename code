@@ -1,0 +1,81 @@
+.unbold{
+   font-style: normal; 
+   font-weight: lighter;
+}
+header{
+    font-size: xx-large;
+
+    font-family: calibri;
+    
+}
+#icon{
+        float: right;
+        clear: right;
+        width: 30%;
+       
+}
+p{
+    font-size: xx-large;
+    color: rgb(178, 171, 171);
+}
+.symbol{
+    color: rgb(162, 166, 169);
+    font-size: xx-large;
+}
+.fa-github{
+    width: 200px;
+    float: right;
+    font-size: xx-large;
+    color: rgb(162, 166, 169);
+}
+
+.icons{
+    display: flex;
+
+}
+.logo{
+    float: right;
+    font-size: xx-large;
+    width: 30%;
+}
+svg{
+
+    width:40px;
+    
+}
+.star{
+    color: rgb(162, 166, 169);
+    font-size: xx-large;
+
+}
+.block
+{
+    display: inline-flex;
+    gap: 200px;
+}
+
+hr{
+    border-style: solid;
+    border-width: 30px;
+    border-color: orangered;
+    border-bottom: none;
+   margin-top: 5%;
+}
+.layout{
+    display: flex;
+    gap: 250px;
+flex-direction: row;
+}
+pre{
+    font-size: 30px;
+    display: inline-flex;
+    
+    
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and( min-width:600px){}
+@media only screen and(min-width:768px){}
+@media only screen and(min-width:992px){}
+@media only screen and(min-width:1200px){}
